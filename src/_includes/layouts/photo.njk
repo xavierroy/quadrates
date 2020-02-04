@@ -27,7 +27,7 @@ layout: "layouts/base.njk"
   <figure>
     <img src="/photos/w960/{{ image_path }}" alt="{{ image.ImageDescription }}">
       <figcaption>
-      <p>{{ image.Comment }}</p>
+      <p>{{ image.UserComment }}</p>
         <p>Taken using a {{ image.Make }} {{ image.Model }} ISO: {{ exif.ISO }} <span class="lowercase">ƒ</span>/{{exif.FNumber }} and edited using {{ image.Software }}</p>
       </figcaption>
   </figure>
